@@ -1,0 +1,187 @@
+
+/**Generales**/
+
+html {
+    font-size: 62.5%;  /**Reset para REMS  1 rem = 10 px**/
+    
+}
+
+img {
+    max-width: 100%;
+}
+body {
+    background-image: radial-gradient(rgb(26, 85, 127), rgb(33, 55, 94),  rgb(37, 41, 79));
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+/**Header**/
+
+.barra-superior {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    align-items: center;
+    font-size: 1rem;
+    padding: 10px 10px;
+    width: ;
+}
+
+.barra-superior img {
+    padding:  ;
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+.barra-superior img:last-of-type{
+    padding-left: 2rem;
+}
+.barra-superior img:first-of-type{
+    padding-left: 1.5rem;
+}
+.siguenos{
+    font-size: ;
+}
+.arero-superior{
+    margin-left: ;
+    font-size: ;
+}
+.barra {
+    display: flex;
+    background-color: red;
+    justify-content: ;
+    width: 150rem;
+    height: 8rem;
+    max-width: 100%;
+    min-width: 50%;
+    padding: 0 20px;
+}
+.search-container {
+    float: center;
+    width: 40rem;
+    padding: 20px;
+    
+}
+.search-container button {
+    float: center;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.logo-principal {
+    
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    border-radius: 20% 0;
+    width: 240px;
+    height: auto;
+    min-width: ;
+    min-height: ;
+    max-width: ;
+     
+    
+}
+.navegacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.barra-navegacion {
+    display: flex;
+    width: 100%;
+    color: white;
+    padding-top: ; 
+    font-size: ;
+    width: ;
+    margin-right: ;
+    justify-content: space-evenly;
+    align-items: baseline ;
+    text-align: center;
+}
+
+.barra-navegacion p  {
+    margin-top: ;
+    color: rgb(185, 185, 185);
+    font-size:;
+}
+
+.barra .barra {
+    justify-content: flex-end;
+    padding-bottom: ;
+    color: white;
+}
+
+
+}
+.busqueda {
+    display: flex;
+    align-items: center;
+    margin-right: ;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.busqueda img {
+   
+}
+.contenedor {
+    padding: ;
+    color: white;
+    font-size: ;
+}
+.contenedor h1 {
+    padding-bottom: ;
+    border-top: 0;
+    border-bottom: 3px;
+    border-right: 0;
+    border-left:0;
+    border-style: solid;
+    border-color: white;
+    width: 40%;
+    color: white;
+}
+.anuncios {
+    display: flex;
+    padding: 0 ;
+    justify-content: space-between;
+    height: auto;
+}
+.anuncio-diseño {
+    display: flex;
+    flex-direction: column;
+    margin: 0 ;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: ;
+    flex-basis: 25%;
+    height: auto;
+        
+}
+.anuncio-diseño h2 { 
+    margin: 0 0;
+
+}
+.anuncio-diseño img{
+    height: ;
+}
+.seccion {
+    color: white;
+    display: flex;
+    padding: 0;
+    font-size: ;
+}
+.bolsa {
+    display: flex;
+}
